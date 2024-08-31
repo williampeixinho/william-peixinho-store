@@ -366,8 +366,17 @@ footer P {
         gap: 10px; /* Space between grid items */
         justify-content: center;
      }
+
  
+     #item button:hover {
+       background-color: none;
+       color: none;
+       border: none;
+     }
+
+          
       }
+
 
       
       @media screen and (max-width: 640px) {
@@ -445,7 +454,11 @@ footer P {
         gap: 10px; /* Space between grid items */
         justify-content: center;
      }
- 
+  #item button:hover {
+       background-color: none;
+       color: none;
+       border: none;
+     }
       }
         
       
