@@ -192,11 +192,7 @@ header {
    transition: background-color 0.8s ease; /* Smooth hover effect */
  }
  
- #grid-loja button:hover {
-   background-color: black;
-   color: white;
-   border: 2px solid #fff;
- }
+
 
  R1 {
   color: #05f297;
@@ -368,11 +364,6 @@ footer P {
      }
 
  
-     #item button:hover {
-       background-color: none;
-       color: none;
-       border: none;
-     }
 
           
       }
@@ -461,4 +452,11 @@ footer P {
      }
       }
         
-      
+        @media screen and (min-width: 1024px) and {
+             #grid-loja button:hover {
+   background-color: black;
+   color: white;
+   border: 2px solid #fff;
+ }
+            
+        }
