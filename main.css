@@ -450,6 +450,9 @@ footer P {
        color: none;
        border: none;
      }
+          button {
+              color: black;
+          }
       }
         
         @media screen and (min-width: 1024px) and {
